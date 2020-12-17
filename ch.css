@@ -1,0 +1,53 @@
+:root {
+  --my-font1:'Robota Slab', serif;
+  --my-font2: Arial, Helvetica, sans-serif;
+  --color1: #FF0099;
+  --color2: #683f58;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.first-slide {
+  background-size: cover;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: linear-gradient(20deg, #E958A2 0%, #A028A9 50%);
+}
+
+.my-img {
+  background-image: url("WhatsApp Image 2020-12-17 at 8.00.50 PM.jpeg");
+  background-size: 30%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  padding: 0 150 px;
+}
+
+.container h1 {
+  margin: 0;
+  font-family: var(--my-font1);
+  color: white;
+  font-size: 80 px;
+  font-weight: 350;
+}
+
+.container p {
+  font-family: var(--my-font2);
+  margin: 0;
+  font-size: 50;
+  color: #fdf9fd;
+}
+/*# sourceMappingURL=ch.css.map */
